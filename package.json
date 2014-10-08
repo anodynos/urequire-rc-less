@@ -1,0 +1,39 @@
+{
+  "name": "urequire-rc-less",
+  "description": "uRequire ResourceConverter that converts .less to .css - supports less options {} & srcMain.",
+  "version": "0.1.0",
+  "homepage": "http://uRequire.org",
+  "author": {
+    "name": "Agelos Pikoulas",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "urequire",
+    "less",
+    "css",
+    "resource",
+    "converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anodynos/urequire-rc-less"
+  },
+  "bugs": {
+    "url": "http://github.com/anodynos/urequire-rc-less/issues",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "main": "./source/code/urequire-rc-less.coffee",
+  "preferGlobal": false,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "less": "*"
+  }
+}
