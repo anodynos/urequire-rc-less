@@ -6,7 +6,8 @@ module.exports = [
   ['**/*.less']
 
   (f, cb)->
-    less.render """@import "#{f.srcFilepath}";""", @options, cb # asynchronous callback
-
+    less.render """@import "#{f.srcFilepath}";""", @options, (err, result)->
+      result = result.css if result?.css # less v2.0 support
+      cb err, result    # asynchronous callback
   '.css'
 ]

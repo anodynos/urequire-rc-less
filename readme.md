@@ -1,6 +1,6 @@
 [uRequire](http://urequire.org) [ResourceConverter](http://urequire.org/resourceconverters.coffee)
 
-Converts `*.less` to `*.css`, supporting `less.render` options {} & uRequire's `srcMain`.
+Converts `*.less` to `*.css`, supporting `less.render` options {} & uRequire's `srcMain`. Supports both less v1.x & less v2.x
 
 # How to use (in your [uRequire config](http://urequire.org/masterdefaultsconfig.coffee))
 
@@ -85,6 +85,11 @@ or without using `_.extend` :
     }
 
 ```
+
+## History
+
+v1.0 Initial release, works with less v1.x
+v1.1 Works with both less v1.x & v2.0
 
 # License
 

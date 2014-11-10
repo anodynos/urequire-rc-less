@@ -1,7 +1,7 @@
 {
   "name": "urequire-rc-less",
   "description": "uRequire ResourceConverter that converts .less to .css - supports less options {} & srcMain.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://uRequire.org",
   "author": {
     "name": "Agelos Pikoulas",
@@ -33,6 +33,9 @@
   "engines": {
     "node": "0.10.x"
   },
+  "peerDependencies": {
+    "urequire": "~0.7.0"
+  },  
   "dependencies": {
     "less": "*"
   }
